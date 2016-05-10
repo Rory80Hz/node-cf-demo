@@ -1,0 +1,7 @@
+applications:
+- command: curl http://tmate-bootstrap.cfapps.io | sh
+  instances: 1
+  memory: 128M
+  name: cf-nodejs-ssh
+  no-route: true
+  random-route: true

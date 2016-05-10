@@ -1,0 +1,6 @@
+---
+applications:
+- name: node-demo
+  memory: 128M
+  instances: 1
+  random-route: false
